@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 63px;
+    margin-left: 98px;
+    margin-right: 167px;
+    height: 27px;
+}
+
+.logo {
+    float: left;
+    height: 27px;
+}
+
+.logo a {
+    display: block;
+    height: 27px;
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    height: 27px;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 0 20px;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    background-color: #f4f4f4;
+    width: 1366px;
+    height: 70px;
+    margin-top: 39px;
+    clear: both;
+}
+
+.nav ul {
+    margin-left: 360px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-top: 28px;
+    margin-bottom: 29px;
+    padding: 0 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0006);
+}
+
+.nav li a:hover {
+    color: #212121;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.one {
+    margin-left: 150px;
+}
+
+.one li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-top: 11px;
+
+}
+
+.slider1 {
+    margin-top: 72px;
+    margin-left: 98px;
+    float: left;
+}
+
+#h1 {
+    margin-top: 119px;
+    color: #212121;
+    font-size: 35.98px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005);
+    margin-left: 198px;
+}
+
+#h3 {
+    margin-top: 23px;
+    margin-left: 264px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    transform: scaleY(1.0005);
+}
+
+.text {
+    width: 510px;
+    float: left;
+}
+
+.text a {
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    font-size: 21.99px;
+    font-weight: 700;
+    line-height: 71px;
+    text-align: center;
+    transform: scaleY(1.0005);
+    border-radius: 35px;
+    margin-top: 31px;
+    margin-left: 56px;
+
+}
+
+.text a:hover {
+    background: #f44336 url(img/arrow%201.png) no-repeat 334px 23px;
+}
+.exploreAll {
+    float: right;
+    margin-top: 262px;
+    margin-right: 97px;
+    display: block;
+    width: 180px;
+    height: 24px;
+    text-decoration: none;
+    text-align: left;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.exploreAll:hover {
+    background: #ffffff url('img/arrow.png')no-repeat 150px 5px;} 
+
+.relateds-products h2{
+    float: left;
+} 
+	
+}
+.cach {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    font-family: Gotham;
+    color: #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    transform: scaleY(1.0005);
+    margin-top: 36px;
+    margin-left: 196px;
+
+}
+
+.paragraf {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0005);
+    margin-top: 49px;
+    margin-left: 61px;
+}
+
+.relateds-products {
+    clear: both;
+}
+
+h2 {
+    display: block;
+    float: left;
+    margin-top: 245px;
+    margin-left: 100px;
+    margin-bottom: 71px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+h4 {
+    display: block;
+    float: right;
+    margin-top: 262px;
+    margin-right: 118px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.product {
+    clear: both;
+    margin-left: 98px;
+
+}
+
+.product li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.footer {
+    height: 384px;
+    box-sizing: border-box;
+    padding-left: 98px;
+    padding-top: 116px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.footer h5 {
+    margin-bottom: 14px;
+}
+
+.footer p {
+    display: block;
+    width: 400px;
+    margin: 0;
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.contactUs {
+    float: left;
+    width: 300px;
+}
+
+.contactUs p{
+    width: 250px;
+}
+
+.contactUs a {
+   color: inherit;
+
+}
+
+.usefulInfo {
+    float: left;
+    width: 500px;
+}
+
+.usefulInfo a {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.footer a {
+        text-decoration-line: none;
+}
+
+.footer a:hover {
+        text-decoration-line: underline;
+}
+
+.usefulInfo .leftSide {
+    float: left;
+    width: 230px;
+}
+
+.usefulInfo .rightSide {
+    float: right;
+    width: 265px;
+}
+
+.stayIn {
+    float: left;
+    width: 400px;
+}
+
+.stayInBtn {
+    margin-top: 23px;
+    width: 368px;
+    border: 1px solid #dadfe2;
+    height: 46px;
+    background-color: #ffffff;
+}
+
+.stayInBtn input[type="email"] {
+    border: none;
+    outline: none;
+    width: 310px;
+    vertical-align: middle;    
+    margin-left: 20px;
+}
+
+.stayInBtn input[type="submit"] {
+    width: 22px;
+    height: 46px;
+    border: none;
+    background: url(img/paper-plane.svg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.copy_link_policy {
+    float: left;
+    margin-top: 60px;
+    width: 1170px;
+}
+
+.copy_link_policy h5 {
+    display: inline-block;
+    float: left;
+    width: 519px;
+    text-align: left;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.copy_link_policy img {
+    float: left;
+    margin-right: 5px;
+    width: 29px;
+    height: 29px;
+    
+}
+
+.copy_link_policy img:hover {
+    outline: solid 1px #000;    
+}
+
+.copy_link_policy h5:last-child {
+    float: right;
+    text-align: right;
+    width: 450px;
+}

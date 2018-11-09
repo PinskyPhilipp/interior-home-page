@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+h1 {
+    margin: 0;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+}
+
+h5 {
+    margin: 0;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h6 {
+    margin: 0;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+.orderUs {
+    display: block;
+    box-sizing: border-box;
+    padding-left: 31px;
+    padding-top: 1px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: left;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+}
+
+.orderUs:hover {
+    background: #ffffff url('img/arrow.png')no-repeat 173px 16px;
+}
+
+.exploreAll {
+    float: right;
+    margin-top: 133px;
+    margin-right: 97px;
+    display: block;
+    width: 180px;
+    height: 24px;
+    text-decoration: none;
+    text-align: left;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.exploreAll:hover {
+    background: #ffffff url('img/arrow.png')no-repeat 170px 5px;
+}
+
+.navbar {
+    float: right;
+    display: table;
+    position: absolute;
+    bottom: 1px;
+    left: 576px;
+}
+
+.navbar li {
+    display: table-cell;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.navbar a {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border: solid 1px #c6c6c6;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 29px;
+    background-color: #c6c6c6;
+}
+
+.navbar li:nth-child(2) a {
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
+}
+
+.navbar a:hover {
+    border: solid 1px #212121;
+    background-color: #212121;
+}
+
+.exclusiveText {
+    display: block;
+    position: absolute;
+    width: 380px;
+    left: 50px;
+    top: 224px;
+}
+
+.exclusiveText h5 {
+    margin-bottom: 7px;
+    color: #1e88e5;
+}
+
+.exclusiveText h2 {
+    margin: 0;
+    margin-bottom: 9px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.exclusiveText h6 {
+    margin-bottom: 28px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    overflow: hidden;
+}
+
+.header > a {
+    display: block;
+    float: left;
+    margin-top: 63px;
+    margin-left: 98px;
+}
+
+.header .menu {
+    float: right;
+    margin-right: 162px;
+    margin-top: 48px;
+
+}
+
+.header .menu li {
+    float: left;
+    list-style-type: none;
+    height: 40px;
+    color: #8c8c8c;
+    box-sizing: border-box;
+}
+
+.header .menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    display: block;
+    padding: 0 15px;
+
+}
+
+.header .menu img {
+    padding-top: 15px;
+}
+
+.header .menu li:hover {
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+
+.header .text {
+    float: left;
+    width: 458px;
+    margin-top: 280px;
+    margin-left: 98px;
+}
+
+.header .text h5 {
+    color: #43a047;
+}
+
+
+.header .text h1 {
+    margin-bottom: 13px;
+}
+
+.header .text h6 {
+    margin-bottom: 27px;
+}
+
+.featured {
+    box-sizing: border-box;
+    height: 609px;
+    overflow: hidden;
+}
+
+.featured > ul {
+    float: left;
+    padding: 0;
+    margin-left: 90px;
+    margin-top: 111px;
+
+}
+
+.featured > ul li {
+    box-sizing: border-box;
+    float: left;
+    list-style-type: none;
+    height: 58px;
+    color: #6c6c6c;
+    border-bottom: 1px solid black;
+}
+
+.featured > ul a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    display: block;
+    padding: 0 15px;
+}
+
+.featured > ul li:hover {
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+
+.featured .content ul {
+    float: left;
+    margin-top: 34px;
+    margin-left: 98px;
+    padding: 0;
+}
+
+.featured .content ul li {
+    display: inline-block;
+    height: 270px;
+    width: 270px;
+    margin-right: 26px;
+}
+
+.featured .product1 {
+    background: url("img/product-1.jpg");
+}
+
+.featured .product2 {
+    background: url("img/product-2.jpg");
+}
+
+.featured .product3 {
+    background: url("img/product-3.jpg");
+}
+
+.featured .product4 {
+    background: url("img/product-4.jpg");
+}
+
+.featured .content a:hover {
+    opacity: 1;
+}
+
+.featured .content a {
+    opacity: 0;
+    text-decoration: none;
+    display: block;
+    height: 270px;
+    width: 270px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.featured .content a h4 {
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 7px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.featured .content a h6 {
+    margin-top: 10px;
+    line-height: 22px;
+    text-align: center;
+
+}
+
+.featured .content a img {
+    margin-left: 107px;
+    margin-top: 60px;
+}
+
+.promo {
+    box-sizing: border-box;
+    height: 683px;
+    overflow: hidden;
+}
+
+.promoProduct {
+    float: left;
+    position: relative;
+}
+
+
+.trending {
+    box-sizing: border-box;
+    height: 1108px;
+    overflow: hidden;
+}
+
+.trending h2 {
+    display: inline-block;
+    margin: 0;
+    margin-top: 112px;
+    margin-left: 98px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.trendingImg {
+    margin-top: 62px;
+    margin-left: 98px;
+}
+
+.trending img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.hotDeals {
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hotDeals .text {
+    display: block;
+    width: 460px;
+    position: absolute;
+    top: 282px;
+    left: 98px;
+}
+
+.hotDeals h3 {
+    margin: 0;
+}
+
+.hotDeals h6 {
+    margin-top: 13px;
+}
+
+.hotDeals .orderUs {
+    margin-top: 28px;
+}
+
+
+.exclusive {
+    box-sizing: border-box;
+    height: 810px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 98px;
+    padding-top: 120px;
+}
+
+.exclusive img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.exclusive .exclusiveText {
+    width: 340px;
+    left: 128px;
+    top: 302px;
+}
+
+.mobileApp {
+    height: 516px;
+    box-sizing: border-box;
+    padding-left: 98px;
+    padding-top: 121px;
+    overflow: hidden;
+    background-image: url(img/back-img-mobile-app.jpg);
+}
+
+.mobileApp .text {
+    width: 450px;
+}
+
+.mobileApp h4 {
+    margin: 0;
+    margin-bottom: 34px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.mobileApp a {
+    margin-right: 6px;
+}
+
+.mobileApp a img:hover {
+    outline: solid 1px #000;   
+}
+
+.footer {
+    height: 384px;
+    box-sizing: border-box;
+    padding-left: 98px;
+    padding-top: 116px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.footer h5 {
+    margin-bottom: 14px;
+}
+
+.footer p {
+    display: block;
+    width: 400px;
+    margin: 0;
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.contactUs {
+    float: left;
+    width: 300px;
+}
+
+.contactUs p{
+    width: 250px;
+}
+
+.contactUs a {
+   color: inherit;
+
+}
+
+.usefulInfo {
+    float: left;
+    width: 500px;
+}
+
+.usefulInfo a {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.footer a {
+        text-decoration-line: none;
+}
+
+.footer a:hover {
+        text-decoration-line: underline;
+}
+
+.usefulInfo .leftSide {
+    float: left;
+    width: 230px;
+}
+
+.usefulInfo .rightSide {
+    float: right;
+    width: 265px;
+}
+
+.stayIn {
+    float: left;
+    width: 400px;
+}
+
+.stayInBtn {
+    margin-top: 23px;
+    width: 368px;
+    border: 1px solid #dadfe2;
+    height: 46px;
+    background-color: #ffffff;
+}
+
+.stayInBtn input[type="email"] {
+    border: none;
+    outline: none;
+    width: 310px;
+    vertical-align: middle;    
+    margin-left: 20px;
+}
+
+.stayInBtn input[type="submit"] {
+    width: 22px;
+    height: 46px;
+    border: none;
+    background: url(img/paper-plane.svg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.copy_link_policy {
+    float: left;
+    margin-top: 60px;
+    width: 1170px;
+}
+
+.copy_link_policy h5 {
+    display: inline-block;
+    float: left;
+    width: 519px;
+    text-align: left;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.copy_link_policy img {
+    float: left;
+    margin-right: 5px;
+    width: 29px;
+    height: 29px;
+    
+}
+
+.copy_link_policy img:hover {
+    outline: solid 1px #000;    
+}
+
+.copy_link_policy h5:last-child {
+    float: right;
+    text-align: right;
+    width: 450px;
+}
